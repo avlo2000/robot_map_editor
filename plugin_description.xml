@@ -1,0 +1,5 @@
+<library path="lib/librobot_map_editor">
+    <class name="robot_map_editor/RobotMapEditor" type="robot_map_editor::ui::RobotMapEditorPanel" base_class_type="rviz::Panel">
+        <description>A panel with for map editing.</description>
+    </class>
+</library>

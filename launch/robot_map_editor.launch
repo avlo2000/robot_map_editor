@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="log" default="false"/>
+    <arg name="sim" default="true"/>
+    <arg name="nav" default="true"/>
+    <arg name="rviz_args" value="-d $(find robot_map_editor)/launch/robot_map_editor.rviz"/>
+
+    <node name="robot_map_editor" pkg="rviz" type="rviz" respawn="false" args="$(arg rviz_args)" output="screen"/>
+
+    <include file="$(find robot_cleaner_core)/launch/params_initialisation.launch"/>
+</launch>

@@ -1,0 +1,14 @@
+material rviz/Bathroom_Texture
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1
+			texture_unit
+			{
+				texture menu_buttons.png
+			}
+		}
+	}
+}

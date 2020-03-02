@@ -1,0 +1,15 @@
+material rviz/Close_Texture
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1
+			cull_hardware none
+			texture_unit
+			{
+				texture close.png
+			}
+		}
+	}
+}

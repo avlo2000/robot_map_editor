@@ -1,0 +1,18 @@
+material rviz/Close_Case_Texture
+{
+	technique
+	{
+		pass
+		{
+		    lighting off
+            scene_blend alpha_blend
+            depth_check off
+			emissive 1 1 1
+			cull_hardware none
+			texture_unit
+			{
+				texture transparent-close-triangle.png
+			}
+		}
+	}
+}

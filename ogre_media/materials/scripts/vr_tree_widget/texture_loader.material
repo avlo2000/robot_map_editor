@@ -1,0 +1,22 @@
+material rviz/Texture_Loader
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1
+			texture_unit
+			{
+				texture green.png
+			}
+			texture_unit
+            {
+                texture lightblue.jpg
+            }
+            texture_unit
+            {
+                texture red.jpg
+            }
+		}
+	}
+}

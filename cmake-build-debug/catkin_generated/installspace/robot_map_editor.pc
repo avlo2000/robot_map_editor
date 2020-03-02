@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robot_map_editor
+Description: Description of robot_map_editor
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobot_map_editor
+Requires: geometry_msgs moveit_ros_planning moveit_ros_planning_interface moveit_ros_visualization moveit_visual_tools pcl_conversions pcl_ros pluginlib roscpp rviz std_msgs tf rviz_vive_plugin_msgs rviz_vr somatic_utils robot_cleaner_action_msgs somatic_rviz_wrapper

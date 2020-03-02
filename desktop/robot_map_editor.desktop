@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=RobotMapEditor
+Icon=utilities-terminal
+Exec=gnome-terminal -e "bash -c 'source ~/.bashrc;roslaunch robot_map_editor robot_map_editor.launch;bash'"
+Categories=Application;
+StartupNotify=true

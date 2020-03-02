@@ -1,0 +1,14 @@
+material rviz/Pipboy
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1
+			texture_unit
+			{
+				texture pipboy.png
+			}
+		}
+	}
+}
