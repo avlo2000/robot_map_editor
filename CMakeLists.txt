@@ -96,15 +96,25 @@ qt5_wrap_ui(UIC_FILES
 add_library(robot_map_editor
     ${MOC_FILES}
     ${UIC_FILES}
-    src/ui/robot_map_editor_panel.cc
+
     src/model/point_cloud_view_model.cc
-    src/utils/ogre_visualisation.cc src/ogre_helpers/map_point_cloud.cc
-    src/ogre_helpers/ogre_visuals.cc
+    src/model/mesh_view_model.cc
+
     src/controllers/ogre_controller.cc
+
+    src/utils/ogre_visualisation.cc
+    src/ogre_helpers/map_point_cloud.cc
+
     src/utils/history.cc
     src/utils/pcl_to_eigen.cc
+
     src/ogre_helpers/object_list.cc
-        src/ui/io_tab.cc include/robot_map_editor/ui/io_tab.hh src/ui/edit_pc_tab.cc include/robot_map_editor/ui/edit_pc_tab.hh include/robot_map_editor/model/mesh_view_model.cc include/robot_map_editor/model/mesh_view_model.hh)
+    src/ogre_helpers/ogre_visuals.cc
+
+    src/ui/io_tab.cc
+    src/ui/edit_pc_tab.cc
+    src/ui/robot_map_editor_panel.cc
+    )
 
 target_link_libraries(robot_map_editor
     ${QT_LIBRARIES}

@@ -34,6 +34,6 @@ namespace ogre_helpers {
     }
 
     void MapPointCloud::Remove(const std::vector<int> &indexes) {
-        ogreDebugVisualisationPtr_->
+        //ogreDebugVisualisationPtr_->
     }
 }}

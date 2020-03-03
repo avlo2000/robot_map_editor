@@ -27,7 +27,7 @@ RobotMapEditorPanel::RobotMapEditorPanel(QWidget *parent)
     updateTimer_ = new QTimer;
 
     connect(updateTimer_, SIGNAL(timeout()), this, SLOT(OnUpdate()));
-    connect(ui_->LoadPointCloud, SIGNAL(released()), this, SLOT(LoadPlanButtonClicked()));
+    connect(ui_->LoadPcBtn, SIGNAL(released()), this, SLOT(LoadPcButtonClicked()));
 }
 
 RobotMapEditorPanel::~RobotMapEditorPanel() {
@@ -45,7 +45,7 @@ void RobotMapEditorPanel::onInitialize() {
     InitControllers();
 }
 
-void RobotMapEditorPanel::LoadPlanButtonClicked() {
+void RobotMapEditorPanel::LoadPcButtonClicked() {
     QString fileName = QFileDialog::getOpenFileName(
             this, tr("Load PointCloud file"), QString::fromStdString(""), tr("PointCloud (*.ply);;All Files (*)"));
 

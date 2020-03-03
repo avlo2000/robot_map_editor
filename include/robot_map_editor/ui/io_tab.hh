@@ -6,6 +6,8 @@
 #define ROBOT_MAP_EDITOR_IO_TAB_HH
 
 #include <ui_robot_map_editor_panel.h>
+#include <robot_map_editor/model/mesh_view_model.hh>
+#include <robot_map_editor/model/point_cloud_view_model.hh>
 #include <QTabWidget>
 
 namespace Ui {
@@ -18,7 +20,7 @@ namespace ui {
     class IoTab : QTabWidget{
     Q_OBJECT
     public:
-        IoTab(QWidget *parent, model::ArmTrajectoryViewModelPtr viewModel);
+        IoTab(QWidget *parent, const model::PointCloudViewModelPtr pcViewModel, const model::MeshViewModelPtr meshViewModel);
 
         ~IoTab();
 

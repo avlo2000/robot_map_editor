@@ -30,7 +30,7 @@ public:
     void onInitialize() override;
 
 private Q_SLOTS:
-    void LoadPlanButtonClicked();
+    void LoadPcButtonClicked();
 
     void SavePlanButtonClicked();
 
@@ -47,7 +47,7 @@ private:
     Ui::RobotMapEditorPanelUI *ui_;
     QTimer *updateTimer_;
 
-    model::RobotMapEditorViewModelPtr viewModelPtr_;
+    model::PointCloudViewModelPtr viewModelPtr_;
     controllers::OgreControllerPtr ogreControllerPtr_;
 };
 

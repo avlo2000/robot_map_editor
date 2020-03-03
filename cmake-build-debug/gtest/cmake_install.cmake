@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/gtest/gtest/cmake_install.cmake")
+  include("/home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/gtest/gtest/cmake_install.cmake")
 
 endif()
 

@@ -5,10 +5,15 @@
 #ifndef ROBOT_MAP_EDITOR_MESH_VIEW_MODEL_HH
 #define ROBOT_MAP_EDITOR_MESH_VIEW_MODEL_HH
 
+#include <boost/signals2.hpp>
 
-class mesh_view_model {
+namespace robot_map_editor {
+namespace model {
 
-};
+    class MeshViewModel {
 
+    };
 
+    typedef std::shared_ptr<MeshViewModel> MeshViewModelPtr;
+}}
 #endif //ROBOT_MAP_EDITOR_MESH_VIEW_MODEL_HH

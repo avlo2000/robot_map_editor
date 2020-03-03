@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/pavlo/Development/robot_cleaner_ws/devel/lib/robot_map_editor/to_build"
+  "/home/pavlo/Development/robot_cleaner_ws/devel/lib/robot_map_editor/to_build.pdb"
   "CMakeFiles/to_build.dir/src/utils/to_build.cc.o"
-  "devel/lib/robot_map_editor/to_build.pdb"
-  "devel/lib/robot_map_editor/to_build"
 )
 
 # Per-language clean rules from dependency scanning.

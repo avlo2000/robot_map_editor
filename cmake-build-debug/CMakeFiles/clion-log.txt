@@ -1,14 +1,14 @@
-/opt/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor
--- Using CATKIN_DEVEL_PREFIX: /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/devel
--- Using CMAKE_PREFIX_PATH: /home/somatic_robot/Development/robot_cleaner_ws/devel_release;/opt/ros/kinetic
--- This workspace overlays: /home/somatic_robot/Development/robot_cleaner_ws/devel_release;/opt/ros/kinetic
+/opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=~/Development/robot_cleaner_ws/devel -G "CodeBlocks - Unix Makefiles" /home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor
+-- Using CATKIN_DEVEL_PREFIX: /home/pavlo/Development/robot_cleaner_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/pavlo/Development/robot_cleaner_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/pavlo/Development/robot_cleaner_ws/devel;/opt/ros/kinetic
 -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python2
 -- Using Debian Python package layout
 -- Using empy: /usr/bin/empy
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
--- Using CATKIN_TEST_RESULTS_DIR: /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/test_results
+-- Using CATKIN_TEST_RESULTS_DIR: /home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/test_results
 -- Forcing gtest/gmock from source, though one was otherwise available.
 -- Found gtest sources under '/usr/src/gmock': gtests will be built
 -- Found gmock sources under '/usr/src/gmock': gmock will be built
@@ -19,4 +19,4 @@
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug
+-- Build files have been written to: /home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug

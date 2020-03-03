@@ -48,7 +48,7 @@ namespace model {
         boost::signals2::signal<void()> changed_;
     };
 
-    typedef std::shared_ptr<PointCloudViewModel> RobotMapEditorViewModelPtr;
+    typedef std::shared_ptr<PointCloudViewModel> PointCloudViewModelPtr;
 }
 }
 #endif //ROBOT_MAP_EDITOR_POINT_CLOUD_VIEW_MODEL_HH

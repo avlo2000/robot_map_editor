@@ -1,4 +1,4 @@
-# Install script for directory: /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/tests
+# Install script for directory: /home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

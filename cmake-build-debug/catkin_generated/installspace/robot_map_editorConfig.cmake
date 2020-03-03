@@ -67,8 +67,8 @@ set(robot_map_editor_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robot_map_editor_SOURCE_PREFIX /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor)
-  set(robot_map_editor_DEVEL_PREFIX /home/somatic_robot/Development/robot_cleaner_ws/src/robot_map_editor/cmake-build-debug/devel)
+  set(robot_map_editor_SOURCE_PREFIX /home/pavlo/Development/robot_cleaner_ws/src/robot_map_editor)
+  set(robot_map_editor_DEVEL_PREFIX /home/pavlo/Development/robot_cleaner_ws/devel)
   set(robot_map_editor_INSTALL_PREFIX "")
   set(robot_map_editor_PREFIX ${robot_map_editor_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /usr/local/lib;/home/somatic_robot/Development/robot_cleaner_ws/devel_release/lib;/opt/ros/kinetic/lib)
+    foreach(path /usr/local/lib;/home/pavlo/Development/robot_cleaner_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
